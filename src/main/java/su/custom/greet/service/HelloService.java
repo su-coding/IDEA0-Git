@@ -14,8 +14,13 @@ public class HelloService {
         this.helloProperties = helloProperties;
     }
 
+    /**
+     * Edit by SU Leader
+     * @param name hostname
+     * @return greeting state
+     */
     public String greet(String name){
-        return helloProperties.getPrefix()+"name"+helloProperties.getSuffix();
+        return helloProperties.getPrefix()+name+helloProperties.getSuffix();
     }
 
 }
