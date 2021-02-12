@@ -15,9 +15,9 @@ public class HelloService {
     }
 
     /**
-     * Edit by SU Leader
-     * @param name hostname
-     * @return greeting state
+     * Edit by SU
+     * @param name username
+     * @return processed Greeting
      */
     public String greet(String name){
         return helloProperties.getPrefix()+name+helloProperties.getSuffix();
